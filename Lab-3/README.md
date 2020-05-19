@@ -22,7 +22,7 @@ Please perform the following steps:
    `config artifact-repo use https://amoll.s3-eu-west-1.amazonaws.com/Services`<br><br>
 6. Deploy flight_delay space (statefull pu which will hold the flights data)<br>
    `deploy --type=stateful --memory=2048 flights_space flight-delay-0.1.jar`<br><br>
-7. Click on the following link and download to your computer the 2 json files:
+7. Click on the following link and download each of the 2 json files separately:
    * [Flight Delay Zeppelin Notebooks](https://drive.google.com/drive/u/0/folders/12KiV7TOHnGMD3jy9drkPUHpbP_-QheGh)<br><br>
 8. Open zeppelin and import the two notebooks (json files) you downloaded<br>
    ![snapshot](Pictures/Picture1.png)<br><br>
