@@ -29,7 +29,7 @@ Please perform the following steps:
 9. Change space name to “flights_space” in insightedge_jdbc interpreter<br>
    ![snapshot](Pictures/Picture2.png)<br><br>
 10. Run all zeppelin paragraphs (one by one) until you reach the Kafka paragraph.<br>
-   Before continuing to the kafka section your zeppelin last paragraph should yield accuracy = 0.79<br>
+   Before continuing to the kafka section your zeppelin last paragraph should yield accuracy ≈ 0.79<br>
    ![snapshot](Pictures/Picture3.png)<br><br>
    Flights_space should have the following number of records:<br>
    ![snapshot](Pictures/Picture4.png)<br><br>
