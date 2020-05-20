@@ -1,6 +1,6 @@
 # PartnerWorkShop 
 ## Lab-2: New Ops manager
-* Hands on workshop , introduction to the new Ops Manager and auto-connect options using GigaCloud
+* Hands on workshop , introduction to the new Ops Manager and Zeppelin Web-based notebook using GigaCloud
 
 ### In this lab you will setup InsightEdge as-a-service at GigaSpaces cloud.
 
