@@ -1,4 +1,4 @@
-# PartnerWorkShop 
+# GSCTL 
 ## Lab-1: Installation workshop 1-click deploy
 * Provision , Manage , Monitor , Deploy on the grid based on aws
 
