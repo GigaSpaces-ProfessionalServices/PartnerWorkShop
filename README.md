@@ -10,3 +10,5 @@
 
 #### Lab-2: Deploy a machine learning pipeline
 * load data , enrich , train the model and predict Participants will use various industry leading building blocks such as spark , kafka and in-memory processing
+
+#### Lab-3: GS cloud
