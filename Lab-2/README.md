@@ -8,7 +8,7 @@
 
 
 ## Before starting please perform:
-    `./build.sh`
+    ./build.sh
 
 **Please continue with the following steps:**
 1. Enter the GSCTL interactive cli:<br>
