@@ -21,7 +21,7 @@
    `list-services`<br>
    This returns all the services with their URLs:<br>
    ![snapshot](Pictures/Picture4_ie.png)<br><br>
-5. Log in to GS cli:
+5. Log in to GS cli:<br>
    `$GS_HOME/bin//gs.sh --server https://<manager host>:8090 --username gs-admin --password <gsctl secretId token>`
 6. Deploy flight_delay space (statefull pu which will hold the flights data)<br>
    `pu deploy flights_space /Users/aharonmoll/IdeaProjects/PartnerWorkShop/Lab-2/flightDelaySpace/target/flight-delay-0.1.jar`<br><br>
