@@ -96,8 +96,8 @@ After you deploy your GigaSpaces services and microservices, you can monitor the
    ![snapshot](Pictures/Picture5.png)
    **Note:**<br>
    To login please use:<br>
-   username: `gs-admin`
-   password: `<gsctl secretId token>` can be taken from .gstcl dir from the token.yaml file)
+   username: `gs-admin`<br>
+   password: `<gsctl secretId token>` (can be taken from .gstcl dir from the token.yaml file)
 3. Copy the grafana URL to your browser to open Grafana and navigate to the pre-defined dashboards:<br>
    ![snapshot](Pictures/Picture6.png)
 4. Select the Telegraf system metrics dashboard in Grafana to view the cluster metrics:<br>
