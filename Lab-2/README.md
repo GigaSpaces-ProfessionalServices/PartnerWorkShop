@@ -24,7 +24,7 @@
 5. Log in to GS cli:<br>
    `$GS_HOME/bin//gs.sh --server https://<manager host>:8090 --username gs-admin --password <gsctl secretId token>`
 6. Deploy flight_delay space (statefull pu which will hold the flights data)<br>
-   `pu deploy flights_space /Users/aharonmoll/IdeaProjects/PartnerWorkShop/Lab-2/flightDelaySpace/target/flight-delay-0.1.jar`<br><br>
+   `pu deploy --property=memory=2048 flights_space /Users/aharonmoll/IdeaProjects/PartnerWorkShop/Lab-2/flightDelaySpace/target/flight-delay-0.1.jar`<br><br>
 7. Click on the following link and download each of the 2 json files separately:
    * [Flight Delay Zeppelin Notebooks](https://drive.google.com/drive/u/0/folders/12KiV7TOHnGMD3jy9drkPUHpbP_-QheGh)<br><br>
 8. Open zeppelin and import the two notebooks (json files) you downloaded<br>
