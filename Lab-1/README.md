@@ -72,9 +72,9 @@ The gsctl tool comes with sample feeder (stateful) and processor (stateless) ser
 You must use the default artifact repository when deploying the sample services.<br>
 #### To deploy the sample GigaSpaces services:
 1. `cd $GS_HOME/examples/data-app/event-processing`
-2. `./build.sh`
+2. `./build.sh pacakge`
 3. Log in to GS cli:<br>
-   `$GS_HOME/bin//gs.sh --server https://<manager host>:8090 --username gs-admin --password <gsctl secretId token>`      
+   `$GS_HOME/bin/gs.sh --server https://<manager host>:8090 --username gs-admin --password <gsctl secretId token>`      
 4. When deploying the sample services, you should first deploy the processor service.<br>
    Type the following command to deploy a processor service called **mySpace**:<br>
    `pu deploy --property=memory=1024 mySpace $GS_HOME/examples/data-app/event-processing/processor/target/data-processor.jar`
